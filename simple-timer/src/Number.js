@@ -1,10 +1,11 @@
 import React from 'react'
 
-const  Number = () => {
+const  Number = (props) => {
     return(
-        <div>
-            Number
-        </div>
+        <button id = {props.num}>
+            {props.num}
+        </button>
+
     )
 }
 

@@ -1,10 +1,11 @@
 import React from 'react'
 
-const  Button = () => {
+const  Button = (props) => {
     return(
-        <div>
-            Button
-        </div>
+        <button id = {props.action}>
+            {props.action}
+        </button>
+
     )
 }
 
