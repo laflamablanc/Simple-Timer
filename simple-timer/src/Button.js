@@ -5,7 +5,6 @@ const  Button = (props) => {
         <button id = {props.action}>
             {props.action}
         </button>
-
     )
 }
 
