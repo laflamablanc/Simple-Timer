@@ -8,7 +8,7 @@ import Number from './Number'
 function App() {
   return (
     <div className="App">
-      <h1> Our Timer App </h1>
+      <h1> Simple Timer App </h1>
       <Timer/>
       <div>
         <Number/>
